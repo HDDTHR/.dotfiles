@@ -1,5 +1,17 @@
-### Quick Setup:
+# Dotfiles
 
-1- Clone this repository: `git clone  https://github.com/HDDTHR/.dotfiles.git ~/.dotfiles`.
+Requires GNU Stow.
 
-2- Run `stow -d ~/.dotfiles` or `stow .` if in dotfiles directory.
+## Install
+
+```sh
+git clone git@github.com:HDDTHR/.dotfiles.git ~/.dotfiles
+stow -d ~/.dotfiles -t ~ .
+```
+
+## Update
+
+```sh
+cd ~/.dotfiles
+git pull
+```

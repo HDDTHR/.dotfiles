@@ -60,13 +60,3 @@ timeout = 0
 background = "#1e1e2e"
 foreground = "#cdd6f4"
 frame_color = "#fab387"
-
-[rules]
-desktop_entry = "netsoft-com.netsoft.hubstaff"
-body = "Screenshot taken"
-urgency = normal
-format = %s\n%b\n%a
-
-[slack]
-appname = "Slack"
-timeout = 0

@@ -1,3 +1,4 @@
 .idea
 Documents/**/*.md
 Documents/**/workspace.json
+.config/regolith3/flags/
